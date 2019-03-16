@@ -1,73 +1,51 @@
-# IRS-MR-2019-01-19-IS1PT-GRP-aiVoyagers-S3P-smart-sec-school-proposer
-Smart Secondary School Proposer
-
-SECTION 1 : PROJECT TITLE
-Singapore Housing & Deveoplment Board - BTO Recommender System
+﻿## SECTION 1 : PROJECT TITLE
+## Smart Secondary School Proposer System
 
 
-SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects.
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol.
+---
+## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
+Singapore has a strong education system. Singapore students aim high and they achieve very good results. This is recognised around the world. Singapore has good schools, with capable school leaders and teachers, and the facilities that are amongst the best in the world.
+After their primary education, Singapore students face heavy competition to get admission to the top secondary schools. To manage the secondary school admission process, Ministry of Education has a process wherein every year students are admitted in schools primarily based on their PSLE (Primary School Leaving Examination) score. The other popular criteria used by students to select secondary schools are the Co-Curricular Activities (CCA) offered by the schools and the distance of the school from their home.
+Our team of 4 Singapore residents have also gone through the selection process of selecting secondary schools for our children and the biggest challenge we found was to collect the disparate information from different sources and most importantly how to analyse this data to arrive at the most appropriate schools for our children.
+We believe that many other Singapore parents would also be finding similar difficulties in analysing the schools available, so to alleviate their pain we decided to embark on this project to provide a smart secondary school proposer which would analyse and propose the best schools for their children based on their choices. For this project we have decided to use the school data available in public domain like MOE website and Kiasu Parents to name a few.
+By using the knowledge and techniques imparted in our machine reasoning course, we first built a database of schools and their attributes from the MOE website. We used KIE tools JBPM and Drools to build the business processes and the decision rules. We also used Java and Google APIs to get real time information on the distances from home. 
+We had a tough but interesting time working on this project. It also allowed each one of us to understand the intricacies involved in choosing the right school for our children based on well-reasoned factors. We also felt that the scale and scope of the project was much bigger than what we initially thought and more time was required to explore all options.
 
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
+---
+## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project.
+| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
+| :------------ |:---------------:| :-----| :-----|
+| SUDALAIANDI RAJA SUDALAIMUTHU | A0195338U | Process model, Rules, Data Model, User form modelling | E0384969@u.nus.edu |
+| JAYARAMAN REVATHI | A0195357R | Java integration of school objects with KIE Workbench, Google API integration with KIE workbench, User Form modelling| E0384988@u.nus.edu |
+| JAYASRI RAGHUNATHAN | A0005978U | Webcrawler, Data mining,Google APIs | E0384183@u.nus.edu |
+| SUNIL VARGHESE | A0195247W | Final Submission Report,User Guide, Read me  | E0384878@u.nus.edu |
 
-SECTION 3 : CREDITS / PROJECT CONTRIBUTION
-Official Full Name	Student ID (MTech Applicable)	Work Items (Who Did What)	Email (Optional)
-Desmond Chua	A1234567A	xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz	A1234567A@nus.edu.sg
-Chang Ye Han	A1234567B	xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz	A1234567B@gmail.com
-Chee Jia Wei	A1234567C	xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz	A1234567C@outlook.com
-Ganesh Kumar	A1234567D	xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz	A1234567D@yahoo.com
-Jeanette Lim	A1234567E	xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz	A1234567E@qq.com
-SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-Sudoku AI Solver
 
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. More reference video presentations here
+---
+## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-SECTION 5 : USER GUIDE
-<Github File Link> : https://github.com/telescopeuser/Workshop-Project-Submission-Template/blob/master/UserGuide/User%20Guide%20HDB-BTO.pdf
 
-[ 1 ] To run the system using iss-vm
-download pre-built virtual machine from http://bit.ly/iss-vm
 
-start iss-vm
+---
+## SECTION 5 : USER GUIDE
 
-open terminal in iss-vm
+`<Github File Link>` : https://github.com/aivoyagers/IRS-MR-2019-01-19-IS1PT-GRP-aiVoyagers-S3P-smart-sec-school-proposer/blob/master/UserGuide/Smart%20Secondary%20School%20Proposer%20User%20Guide.pdf
 
-$ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
 
-$ source activate iss-env-py2
+---
+## SECTION 6 : PROJECT REPORT / PAPER
 
-(iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
+`<Github File Link>` : https://github.com/aivoyagers/IRS-MR-2019-01-19-IS1PT-GRP-aiVoyagers-S3P-smart-sec-school-proposer/blob/master/ProjectReport/Smart%20Secondary%20School%20Proposer%20Project%20Report.pdf
 
-(iss-env-py2) $ python app.py
 
-Go to URL using web browser http://0.0.0.0:5000 or http://127.0.0.1:5000
+---
+## SECTION 7 : MISCELLANEOUS
 
-[ 2 ] To run the system in other/local machine:
-Install additional necessary libraries. This application works in python 2 only.
-$ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+### SchoolDatas.csv
+### Scoring Model.xlsx
+* School Data
+* Scoring model- Certainity factors
 
-$ pip install pyclips flask flask-socketio eventlet simplejson pandas
-
-SECTION 6 : PROJECT REPORT / PAPER
-<Github File Link> : https://github.com/telescopeuser/Workshop-Project-Submission-Template/blob/master/ProjectReport/Project%20Report%20HDB-BTO.pdf
-
-Recommended Sections for Project Report / Paper:
-
-Executive Summary / Paper Abstract
-Sponsor Company Introduction (if applicable)
-Business Problem Background
-Project Objectives & Success Measurements
-Project Solution (To detail domain modelling & system design.)
-Project Implementation (To detail system development & testing approach.)
-Project Performance & Validation (To prove project objectives are met.)
-Project Conclusions: Findings & Recommendation
-List of Abbreviations (if applicable)
-References (if applicable)
-SECTION 7 : MISCELLANEOUS
-HDB_BTO_SURVEY.xlsx
-Results of survey
-Insights derived, which were subsequently used in our system
+---
