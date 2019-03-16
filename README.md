@@ -6,10 +6,14 @@
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 Singapore has a strong education system. Singapore students aim high and they achieve very good results. This is recognised around the world. Singapore has good schools, with capable school leaders and teachers, and the facilities that are amongst the best in the world.
+
 After their primary education, Singapore students face heavy competition to get admission to the top secondary schools. To manage the secondary school admission process, Ministry of Education has a process wherein every year students are admitted in schools primarily based on their PSLE (Primary School Leaving Examination) score. The other popular criteria used by students to select secondary schools are the Co-Curricular Activities (CCA) offered by the schools and the distance of the school from their home.
+
 Our team of 4 Singapore residents have also gone through the selection process of selecting secondary schools for our children and the biggest challenge we found was to collect the disparate information from different sources and most importantly how to analyse this data to arrive at the most appropriate schools for our children.
+
 We believe that many other Singapore parents would also be finding similar difficulties in analysing the schools available, so to alleviate their pain we decided to embark on this project to provide a smart secondary school proposer which would analyse and propose the best schools for their children based on their choices. For this project we have decided to use the school data available in public domain like MOE website and Kiasu Parents to name a few.
-By using the knowledge and techniques imparted in our machine reasoning course, we first built a database of schools and their attributes from the MOE website. We used KIE tools JBPM and Drools to build the business processes and the decision rules. We also used Java and Google APIs to get real time information on the distances from home. 
+By using the knowledge and techniques imparted in our machine reasoning course, we first built a database of schools and their attributes from the MOE website. We used KIE tools JBPM and Drools to build the business processes and the decision rules. We also used Java and Google APIs to get real time information on the distances from home.
+
 We had a tough but interesting time working on this project. It also allowed each one of us to understand the intricacies involved in choosing the right school for our children based on well-reasoned factors. We also felt that the scale and scope of the project was much bigger than what we initially thought and more time was required to explore all options.
 
 ---
