@@ -29,8 +29,8 @@ We had a tough but interesting time working on this project. It also allowed eac
 
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-
-
+`<Github File Link>` :
+https://github.com/aivoyagers/IRS-MR-2019-01-19-IS1PT-GRP-aiVoyagers-S3P-smart-sec-school-proposer/blob/master/Videos/S3P-smart-sec-school.mp4
 
 ---
 ## SECTION 5 : USER GUIDE
